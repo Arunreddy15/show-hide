@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
+}
+.top-heading {
+  color: white;
+}
+.segments-container {
+  display: flex;
+
+  width: 650px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button {
+  margin: 0 20px;
+
+  text-align: center;
+}
+button {
+  color: #fc63a7;
+  padding: 7px 10px 7px 10px;
+  border-radius: 10px;
+  border: 0px solid;
+  font-weight: bold;
+}
+.showName {
+  background-color: #fddddb;
+
+  border-radius: 10px;
+}
+.show {
+  display: none;
+}
+p {
+  padding-top: 20px;
+  height: 70px;
+}
