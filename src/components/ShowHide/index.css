@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   height: 100vh;
   background: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
 }
@@ -12,9 +12,9 @@
 }
 .segments-container {
   display: flex;
-
-  width: 650px;
   justify-content: center;
+  width: 650px;
+
   box-sizing: border-box;
 }
 .button {
@@ -34,10 +34,16 @@ button {
 
   border-radius: 10px;
 }
-.show {
-  display: none;
-}
+
 p {
   padding-top: 20px;
   height: 70px;
+  background-color: #fddddb;
+  border-radius: 10px;
+}
+.body-container {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
 }
